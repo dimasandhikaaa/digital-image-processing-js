@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #222;
+}
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 32px 24px 24px 24px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 32px;
+    color: #2a7ae2;
+}
+label, select, input[type="file"] {
+    font-size: 1rem;
+    margin-right: 8px;
+}
+#operation, #process {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    background: #f0f4fa;
+    transition: border 0.2s;
+}
+#operation:focus, #process:focus {
+    border: 1.5px solid #2a7ae2;
+    outline: none;
+}
+#process {
+    background: #2a7ae2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background 0.2s;
+}
+#process:hover {
+    background: #185ca1;
+}
+#canvas {
+    display: block;
+    margin: 24px auto 0 auto;
+    border: 2px solid #2a7ae2;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(42,122,226,0.08);
+    max-width: 100%;
+}
+#channels {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+.channel-canvas {
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background: #fafafa;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    margin: 0;
+    max-width: 180px;
+}
+footer {
+    text-align: center;
+    margin-top: 32px;
+    padding: 18px 0 10px 0;
+    background: transparent;
+    font-size: 1rem;
+    color: #888;
+    letter-spacing: 0.5px;
+}
+.footer-content {
+    display: inline-block;
+    background: #f0f4fa;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
